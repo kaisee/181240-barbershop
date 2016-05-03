@@ -6,6 +6,255 @@ body {
     font-family: PT Sans Narrow, sans-serif;
 }
 
+.main-header {
+    background-color: black;
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 940px;    
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    float: left;
+    min-height: 70px;
+    width: 780px;
+    background-color: antiquewhite;
+}
+
+.user-block {
+    float: right;
+    min-height: 70px;
+    width: 140px;
+    background-color: brown;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.index-logo {
+    width: 368px;
+    height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: burlywood;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-item {
+    background-color: antiquewhite;
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    min-height: 175px;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.index-content {
+    padding: 50px 80px;
+    background-color: bisque;
+    margin-bottom: 35px;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+    min-height: 330px;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+    min-height: 330px;
+}
+
+/* FOOTER */
+
+.main-footer {
+    margin-top: 65px;
+    background-color: azure;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 90px;
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+    min-height: 90px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 180px;
+    min-height: 90px;
+}
+
+.catalog-header {
+    background-color: darkgrey;
+    min-height: 80px;
+    width: 320px;
+    margin-bottom: 50px;
+}
+
+/* Сортировка по категориям */
+
+.filters {
+    float: left;
+}
+
+.text-block-top {
+    width: 172px;
+    min-height: 280px;
+    padding-bottom: 26px;
+    background-color: darkseagreen;
+}
+
+.text-block-bottom {
+    width: 172px;
+    background-color: darkseagreen;
+    min-height: 187px;
+}
+
+/* Товары */
+
+.items {
+    float: right;    
+    width: 700px;
+    min-height: 595px;
+    background-color: antiquewhite;
+    margin-left: 64px;
+    font-size: 0;
+    vertical-align: middle;
+    text-align: center;    
+    margin-bottom: 45px;
+}
+
+article {
+    display: inline-block;
+    width: 220px;
+    min-height: 288px;
+    background-color: azure;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+article:nth-child(3n) {
+    margin-right: 0;
+}
+
+.price-buy {
+    margin: 0 auto;
+    width: 185px;
+    height: 42px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+/* Переключатель страниц */
+
+.paginator {
+    width: 192px;
+    height: 42px;
+    background-color: lightgray;
+    margin-bottom: 48px;
+}
+
+/* Страница товара */
+
+.category-breadcrumbs {
+    background-color: antiquewhite;
+    margin-bottom: 55px;
+}
+
+.item-foto {
+    float: left;
+    width: 460px;
+    min-height: 670px;
+    background-color: aliceblue;
+    margin-right: 70px;
+    margin-bottom: 45px;
+}
+
+.foto-main {
+    display: inline-block;
+    width: 460px;
+    min-height: 498px;    
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 0;
+    text-align: left;
+}
+
+.slide {
+    display: inline-block;
+    width: 140px;
+    height: 152px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 20px;
+    background-color: beige;
+}
+
+.slide:nth-child(3) {
+    margin-left: 0;
+}
+
+footer {
+    background-color: azure;
+}
+
+/* Страница товара Описание товара */
+
+.item-description {
+    float: right;
+    width: 400px;
+    min-height: 545px;
+    box-sizing: content-box;
+    background-color: azure;
+}
+
+.item-info {
+    width: 400px;
+    padding: 15px 10px 30px 10px;
+}
+
+.description-item {
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+}
+
+.item-price-buy {
+    width: 187px;
+    height: 46px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    background-color: #e5e5e5;
+}
+
+
+/* Оформление */
+
 h1 {
     font-size: 30px;
     line-height: 42px;

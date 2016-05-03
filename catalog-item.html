@@ -3,11 +3,12 @@
     <head>
         <title>Страница товара</title>
         <meta charset="utf-8">
+        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <header class="main-header">
-            <div class="container">
+            <div class="container clearfix">
                 <nav class="main-navigation">
                     <ul>                        
                         <li>
@@ -37,7 +38,7 @@
                 </div>
             </div>
         </header>        
-        <section class="container">
+        <section class="container category-breadcrumbs">
             <h1 class="category-name">Набор для путешествий "Baxter of California"</h1>
             <ul class="breadcrumbs">
                 <li><a href="#">Главная</a></li>
@@ -46,15 +47,19 @@
                 <li class="active">Набор для путешествий "Baxter of California"</li>
             </ul>            
         </section>
-        <main class="container">
+        <main class="container clearfix">
             <div class="item-foto">
-                <figure class="foto-mail">
-                    <img src="img/barbershop-item.jpg" alt="" width="414" height="448">
+                <figure class="foto-main">
+                    <img src="img/barbershop-item.jpg" alt="" width="460" height="498">
                 </figure>
-                <figure class="slides">
-                    <img src="img/barbershop-item-1.jpg" alt="" width="122" height="134">
-                    <img src="img/barbershop-item-2.jpg" alt="" width="122" height="134">
-                    <img src="img/barbershop-item-3.jpg" alt="" width="122" height="134">
+                <figure class="slide">
+                    <img src="img/barbershop-item-1.jpg" alt="" width="140" height="152">
+                </figure>
+                <figure class="slide">
+                    <img src="img/barbershop-item-2.jpg" alt="" width="140" height="152">
+                </figure>
+                <figure class="slide">
+                    <img src="img/barbershop-item-3.jpg" alt="" width="140" height="152">
                 </figure>
             </div>
             <div class="item-description">
@@ -62,9 +67,9 @@
                     <p class="item">Есть в наличии</p>
                     <p class="item-articul">Артикул</p>
                 </div>
-                <article>
+                <article class="description-item">
                     <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-                    <div class="price-buy">
+                    <div class="item-price-buy">
                         <p class="price">2 900 руб</p>
                         <a href="#" class="button-dark">Купить</a>
                     </div>
@@ -78,8 +83,9 @@
                         </ul>
                 </article>
             </div>
-            <footer class="main-footer">
-            <div class="container">
+        </main>
+        <footer>
+            <div class="container clearfix">
                 <section class="footer-contacts">
                     <p>
                     Барбершоп "Бородинский"<br>
@@ -89,7 +95,7 @@
                     </p>
                 </section>
                 <section class="footer-social">
-                     <p>Давайте дружить!</p>
+                    <p>Давайте дружить!</p>
                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                     <a class="social-btn social-btn-fb" href="#">Фэйсбук</a>
                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -100,6 +106,8 @@
                 </section>
             </div>  
         </footer>
-        </main>
-    </body>
+  </body>
+</html>
+
+  </body>
 </html>
