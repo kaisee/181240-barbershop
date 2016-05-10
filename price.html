@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Текстовая страница</title>
+      <link href="css/normalize.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="page-background">
       <header class="main-header">
-        <div class="container">
+        <div class="container clearfix">
             <nav class="main-navigation">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="#" class="logo-inner">
                             <img src="img/item-logo.png" alt="Barbershop" width="111" height="24">
                         </a>
                     </li>
@@ -24,8 +25,8 @@
                     <li>
                         <a href="#">Магазин</a>
                     </li>
-                    <li>
-                        <a href="#">Прайс-лист</a>
+                    <li class="active">
+                        <span>Прайс-лист</span>
                     </li>
                     <li>
                         <a href="#">Контакты</a>
@@ -36,19 +37,21 @@
                 <a class="login" href="#">Вход</a>
             </div>
         </div>
-      </header>
+      </header>      
       <main class="container">
-        <section class="container">
+          <section class="category-breadcrumbs clearfix">
             <h1 class="category-name">Прайс-лист</h1>
             <ul class="breadcrumbs">
                 <li><a href="#">Главная</a></li>
-                <li class="active">Прайс-лист</li>
+                <li class="active"><span>Прайс-лист</span></li>
             </ul>            
         </section>
-        <div class="slogan">
-            Истинно мужская классика  
+        <div class="slogan container">
+            <div class="slogan-content">
+                Истинно мужская классика  
+            </div>
         </div>
-        <div class="price-content">
+        <div class="price-content clearfix">
             <div class="price-column-left">
                 <h2 class="price-title">Мы используем только лучшие средства:</h2>
                 <ul>
@@ -60,7 +63,7 @@
             </div>
             <div class="price-column-right">
                 <h2 class="price-title">Цены на услуги наших мастеров:</h2>
-                <table>
+                <table class="price-table">
                     <tr>
                         <td>Стрижка</td>
                         <td>1500 руб</td>
@@ -76,7 +79,7 @@
                 </table>
             </div>
         </div>
-        <div class="price-content">
+        <div class="price-content clearfix">
             <div class="price-column-left">
                 <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
             </div>
@@ -86,7 +89,7 @@
         </div>
       </main>
       <footer class="main-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <section class="footer-contacts">
                     Барбершоп "Бородинский"<br>
                     Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
